@@ -447,6 +447,17 @@
                        background-repeat: no-repeat;
                    }
 
+                   .trans-bg {
+                       height: 1100px;
+                       width: 80%;
+                       border: 10px solid;
+                       border-color: rgba(69, 80, 64, 0.84);
+                       background-color: rgba(196, 203, 196, 0.51);
+                       margin: auto;
+                       padding-top: 10px;
+                       padding-bottom: 10px;
+                   }
+
                    .contact-links {
                        width: 10%;
                        justify-content: center;

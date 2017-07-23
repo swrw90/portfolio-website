@@ -399,12 +399,24 @@
 
     .up {
         margin: auto;
-        left: 47%;
+        left: 42%;
         bottom: 7%;
     }
 
+    #trans-bg {
+        /*height: 1100px;*/
+        width: 70%;
+        border: 2px solid;
+        border-color: rgba(69, 80, 64, 0.84);
+        background-color: rgba(196, 203, 196, 0.51);
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .contact-links {
-        width: 10%;
+        /*width: 10%;*/
+        width: 55%;
         justify-content: center;
         text-align: center;
         margin: auto;
@@ -471,6 +483,30 @@
         }
         .contact-banner {
             font-size: 72px;
+        }
+        #trans-bg {
+            /*height: 1100px;*/
+            width: 40%;
+            border: 2px solid;
+            border-color: rgba(69, 80, 64, 0.84);
+            background-color: rgba(196, 203, 196, 0.51);
+            margin: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .contact-links {
+            width: 25%;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+            z-index: 9999;
+            text-align: center;
+            margin: 10px;
+        }
+        .up {
+            margin: auto;
+            left: 47%;
+            bottom: 7%;
         }
         i.fa.fa-5x {
             font-size: 8em;

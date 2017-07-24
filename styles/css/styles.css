@@ -387,8 +387,9 @@
         text-align: center;
     }
 
-    .contacts {
+    .contacts-container {
         margin: auto;
+        text-align: center;
     }
 
     .scroll-up {

@@ -472,9 +472,13 @@
     /*Tablet Styles*/
 
     @media (min-width: 768px) {
+        .container {
+            width: auto;
+        }
         .navigation {
-            padding: 0;
-            text-align: left;
+            padding: 2px;
+            text-align: center;
+            font-size: 13px;
         }
         .navigation li {
             padding: 5px 10px;
@@ -484,6 +488,7 @@
             margin-top: 20%;
         }
         .dwn {
+            left: 45%;
             margin: auto;
         }
         .about-banner {
@@ -506,8 +511,8 @@
             width: 10%;
         }
         .modal-pos {
-            margin: 7% auto;
-            float: left;
+            margin: 1% auto;
+            float: none;
         }
         .modal-btn {
             width: 85%;
@@ -521,9 +526,8 @@
             margin-top: 5px;
         }
         .modal-content {
-            margin: 8% auto;
-            width: 900px;
-            height: 800px;
+            margin: 22% auto;
+            width: 80%;
         }
         .project-description {
             font-size: 25px;
@@ -536,7 +540,7 @@
         }
         #trans-bg {
             /*height: 1100px;*/
-            width: 40%;
+            width: 50%;
             border: 2px solid;
             border-color: rgba(69, 80, 64, 0.84);
             background-color: rgba(196, 203, 196, 0.51);
@@ -554,7 +558,7 @@
             letter-spacing: 18px;
         }
         .contact-links {
-            width: 25%;
+            width: 60%;
             justify-content: center;
             text-align: center;
             margin: auto;
@@ -564,10 +568,38 @@
         }
         .up {
             margin: auto;
-            left: 47%;
+            left: 45%;
             bottom: 7%;
         }
         i.fa.fa-5x {
             font-size: 8em;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .dwn {
+            left: 47%;
+        }
+        .up {
+            left: 47%;
+        }
+        .button {
+            padding: 8px;
+            font-size: 20px;
+        }
+        .contact-links {
+            width: 25%;
+        }
+        #slide4 {
+            overflow: hidden;
+        }
+        .modal-content {
+            margin: 8% auto;
+            width: 50%;
+            text-align: center;
+        }
+        .modal-pos {
+            margin: 7% auto;
+            float: left;
         }
     }

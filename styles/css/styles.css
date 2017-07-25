@@ -74,7 +74,7 @@
     }
 
     #slide1 {
-        background-image: url("/images/slide1/home-forest.jpeg");
+        background-image: url("/images/slide1/home-forest-web.png");
         background-size: cover;
     }
 
@@ -126,7 +126,7 @@
     }
 
     #slide2 {
-        background-image: url("/images/slide2/about-forest.jpg");
+        background-image: url("/images/slide2/about-forest-web.png");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -278,7 +278,7 @@
 
     #slide3 {
         background-color: #b6c10b;
-        background-image: url("/images/slide3/projects-forest.jpg");
+        background-image: url("/images/slide3/projects-forest-web.png");
         background-size: cover;
     }
 
@@ -367,7 +367,7 @@
     }
 
     #slide4 {
-        background-image: url("/images/slide4/nature-forest-moss-leaves.jpg");
+        background-image: url("/images/slide4/nature-forest-moss-leaves-web.png");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
